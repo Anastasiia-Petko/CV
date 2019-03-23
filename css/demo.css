@@ -101,6 +101,21 @@ font-size: 30px;
 	max-width: 350px;
 	margin: 50px auto;
 }
+.button:hover{
+	padding: 20px 100px 20px 100px;
+/*-webkit-transition: all  0.5s;
+     -moz-transition: all 0.5s;
+     -o-transition: all  0.5s;
+     transition: all 0.5s;*/
+	background-color: #01a39e;
+	max-width: 450px;
+	/*transition-duration: .1s;
+	transition-timing-function: ease-in;*/
+	transition-property: padding, max-width, background-color;
+transition-duration: 1s;
+transition-timing-function: ease-out, ease, linear;
+
+	}
 .text-ul li{
 	color: #8d8d8d;
 	font-size: 18px;
@@ -200,6 +215,29 @@ h6{
 
 	.codrops-icon span {
 		display: none;
+	}
+
+
+}
+@media screen and (max-width: 900px) {
+
+	.text-container{
+		width: 100%;
+		max-width: 100%;
+		padding: 30px;
+	}
+
+.grid li {
+display: none;
+}
+.bg-white {
+padding: 50px ;
+	}
+	.bg-color {
+padding: 50px ;
+	}
+	.link {
+font-size: 3em;
 	}
 
 }

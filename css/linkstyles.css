@@ -749,3 +749,13 @@
 	.link--asiri { -webkit-transform: scale3d(0.65,0.65,1); transform: scale3d(0.65,0.65,1); }
 	.link--yaku { font-size: 4em; }
 }
+
+
+@media screen and (max-width: 900px) {
+
+	.link {
+font-size: 3em;
+	}
+	.link--kukuri { font-size: 3em; }
+
+}
