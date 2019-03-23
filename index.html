@@ -12,15 +12,44 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize2.css" />
+	<link rel="stylesheet" type="text/css" href="css/linkstyles.css" />
 	<script src="js/modernizr.custom.js"></script>
+
+	<style> /* Firefox seems to have issues loading the clip path from inside the CSS */
+		.link--urpi::before {
+			-webkit-clip-path: url(#cp_up); 
+			clip-path: url(#cp_up);
+		}
+
+		.link--urpi::after {
+			-webkit-clip-path: url(#cp_down); 
+			clip-path: url(#cp_down);
+		}
+	</style>
 </head>
 <body>
+<div class="first">
+<!-- 	<h1>Anastasiia Petko</h1> -->
+	<div class="grid__item color-1">
+				<a class="link link--kukuri" href="#" data-letters="Anastasiia Petko">Anastasiia Petko</a>
+			</div>
+			<h2>UI/UX Designer</h2>
+
+
+</div>
+			
+
 	<div class="container">
 		<div class="component">
 
-			<div class="text-container cv">
-				<h1>Anastasiia Petko</h1>
-				<h2>UI/UX Designer</h2>
+			<div class="cv">
+				<div class="image">
+				<img src="img/cv.png">
+				</div>
+
+			<!-- 	<h1>Anastasiia Petko</h1> -->
+				<!-- <h2>UI/UX Designer</h2> -->
 				<p>Kiev, Ukraine<br>
 					+380930265256<br>
 					anastasiiapetko@gmail.com</p>
@@ -28,9 +57,7 @@
 					Portfolio on Behance
 					</a>
 				</div>
-				<div class="image">
-				<img src="img/cv.png">
-				</div>
+			
 				<div class="bg-color">
 					<ul class="grid">
 						<li class="ot-letter-left"><span data-letter="S">S</span></li>
