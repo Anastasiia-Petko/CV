@@ -118,7 +118,7 @@ transition-timing-function: ease-out, ease, linear;
 	}
 .text-ul li{
 	color: #8d8d8d;
-	font-size: 18px;
+	font-size: 16px;
 	max-width: 1000px;
 	line-height: 30px;
 
@@ -137,7 +137,7 @@ margin-bottom: 100px;
 	text-align: center;
 }
 p{color: #8d8d8d;
-	font-size: 18px;
+	font-size: 16px;
 /*	margin: 20px 0;*/
 	line-height: 30px;
 
